@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>童老师ThinkPHP交流群：484519446</title>
+
+        <meta name="description" content="Dashboard">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--Basic Styles-->
+        <link href="__ADMIN__/style/bootstrap.css" rel="stylesheet">
+        <link href="__ADMIN__/style/beyond.min.css" rel="stylesheet">
+        <link href="__ADMIN__/style/font-awesome.css" rel="stylesheet">
+        <link href="__ADMIN__/style/weather-icons.css" rel="stylesheet">
+
+        <!--Beyond styles-->
+        <link id="beyond-link" href="__ADMIN__/style/beyond.css" rel="stylesheet" type="text/css">
+        <link href="__ADMIN__/style/demo.css" rel="stylesheet">
+        <link href="__ADMIN__/style/typicons.css" rel="stylesheet">
+        <link href="__ADMIN__/style/animate.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- 头部 -->
+        {include file='common/head'}
+
+        <!-- /头部 -->
+
+        <div class="main-container container-fluid">
+            <div class="page-container">
+                <!-- Page Sidebar -->
+                {include file="common/left"}
+                <!-- /Page Sidebar -->
+                <!-- Page Content -->
+                <div class="page-content">
+                    <!-- Page Breadcrumb -->
+                    <div class="page-breadcrumbs">
+                        <ul class="breadcrumb">
+                            <li class="active">控制面板>新增品牌</li>
+                        </ul>
+                    </div>
+                    <!-- /Page Breadcrumb -->
+
+                    <!-- Page Body -->
+                    <div class="page-body">
+                        <form role="form" class='form-horizontal' action="" method='POST' enctype="multipart/form-data">
+                            <input type="hidden" name="id" value="{$brand.id}">
+                            <div class="form-group">
+                                <label for="definpu" class='col-sm-2 control-label'>商品品牌</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="brand_name" name='brand_name'
+                                        placeholder="" value="{$brand.brand_name}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="definpu" class='col-sm-2 control-label'>品牌网址</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="brand_url" name='brand_url'
+                                        placeholder="" value="{$brand.brand_url}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="definpu" class='col-sm-2 control-label'>品牌logo</label>
+                                <div class="col-sm-8">
+                                    <input type="file" class="" id="brand_img" placeholder="" name='brand_img'
+                                        style='float:left'>
+                                    {if $brand.brand_img!=""}
+                                    <img src="__UPLOADS__/{$brand.brand_img}" alt="" height='35'>
+                                    {/if}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="definpu" class='col-sm-2 control-label'>品牌描述</label>
+                                <div class="col-sm-8">
+                                    <textarea name="brand_description" id="brand_description" cols="30" rows="10"
+                                        style='width: 100%;resize:none;'>{$brand.brand_description}</textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="definpu" class='col-sm-2 control-label'>品牌状态</label>
+                                <div class="col-sm-8">
+                                    <div class="radio">
+                                        <label>
+                                            <input name="status" type="radio" class="colored-blue" value="1" {if
+                                                $brand.status==1}checked{/if}> <span class="text">显示</span>
+                                        </label>
+                                        <label>
+                                            <input name="status" type="radio" class="colored-blue" value='0' {if
+                                                $brand.status==0}checked{/if}> <span class="text">隐藏</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-sm-2"></span>
+                                <div class="col-sm-8">
+                                    <input class='btn btn-success shiny' type="submit" value="保存信息">
+                                    <a class='btn btn-primary shiny' href="{:url('index')}">　返回　</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+        </div>
+        </div>
+
+        {include file="common/foot"}
+
+
+
+    </body>
+
+</html>
