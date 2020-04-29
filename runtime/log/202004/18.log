@@ -1,0 +1,120 @@
+---------------------------------------------------------------
+[ 2020-04-18T10:02:45+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index
+[运行时间：0.806872s] [吞吐率：1.24req/s] [内存消耗：2,013.75kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utmz=111872281.1587124837.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.891341663.1587124837.1587124837.1587170025.2; PHPSESSID=798pqvjbdm2slv5joprtde52l4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064048s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.076225s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000598s ]
+---------------------------------------------------------------
+[ 2020-04-18T10:02:50+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/edit/bid/2.html
+[运行时间：0.068509s] [吞吐率：14.60req/s] [内存消耗：2,012.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utmz=111872281.1587124837.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.891341663.1587124837.1587124837.1587170025.2; PHPSESSID=798pqvjbdm2slv5joprtde52l4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/index',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'bid' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->edit[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\edit.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001603s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.016155s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000620s ]
+---------------------------------------------------------------
+[ 2020-04-18T10:02:53+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.076206s] [吞吐率：13.12req/s] [内存消耗：2,014.16kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utmz=111872281.1587124837.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.891341663.1587124837.1587124837.1587170025.2; PHPSESSID=798pqvjbdm2slv5joprtde52l4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/edit/bid/2.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001648s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.015507s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000386s ]

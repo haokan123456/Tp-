@@ -1,0 +1,4444 @@
+---------------------------------------------------------------
+[ 2020-04-16T11:16:59+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/Brand/index
+[运行时间：0.119117s] [吞吐率：8.40req/s] [内存消耗：1,365.38kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.1.10.1587005576',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:27:26+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/Brand/index
+[运行时间：0.129513s] [吞吐率：7.72req/s] [内存消耗：1,496.52kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:27:30+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.023688s] [吞吐率：42.22req/s] [内存消耗：1,365.66kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/Brand/index',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:34:41+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.066004s] [吞吐率：15.15req/s] [内存消耗：1,496.67kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/index.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:34:46+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.042058s] [吞吐率：23.78req/s] [内存消耗：1,298.49kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:35:01+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.048129s] [吞吐率：20.78req/s] [内存消耗：1,496.78kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:39:52+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.035999s] [吞吐率：27.78req/s] [内存消耗：1,497.26kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:41:32+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.027102s] [吞吐率：36.90req/s] [内存消耗：1,365.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:42:12+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.038481s] [吞吐率：25.99req/s] [内存消耗：1,497.43kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:42:35+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.035435s] [吞吐率：28.22req/s] [内存消耗：1,497.47kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:43:13+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.037811s] [吞吐率：26.45req/s] [内存消耗：1,497.72kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T11:43:26+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.030422s] [吞吐率：32.87req/s] [内存消耗：1,497.58kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=uhogbvup3bhke9uonj5uobne53; __utma=111872281.1520411694.1587005576.1587005576.1587005576.1; __utmc=111872281; __utmz=111872281.1587005576.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:21:25+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/brand/index.html
+[运行时间：0.125209s] [吞吐率：7.99req/s] [内存消耗：1,100.90kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'brand',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:21:31+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.038805s] [吞吐率：25.77req/s] [内存消耗：1,365.21kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:25:10+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.069548s] [吞吐率：14.38req/s] [内存消耗：1,477.71kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:25:20+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.034510s] [吞吐率：28.98req/s] [内存消耗：1,349.58kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/index.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:25:45+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.146319s] [吞吐率：6.83req/s] [内存消耗：1,480.77kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:26:39+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.045367s] [吞吐率：22.04req/s] [内存消耗：1,481.03kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:26:56+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.032093s] [吞吐率：31.16req/s] [内存消耗：1,481.03kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:27:02+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.036959s] [吞吐率：27.06req/s] [内存消耗：1,481.03kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:27:39+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.043264s] [吞吐率：23.11req/s] [内存消耗：1,481.03kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:30:01+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.038216s] [吞吐率：26.17req/s] [内存消耗：1,498.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:35:43+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.038582s] [吞吐率：25.92req/s] [内存消耗：1,498.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:36:00+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.030848s] [吞吐率：32.42req/s] [内存消耗：1,498.95kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:36:41+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.032836s] [吞吐率：30.45req/s] [内存消耗：1,499.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:38:01+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.027422s] [吞吐率：36.47req/s] [内存消耗：1,365.60kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:39:09+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.029127s] [吞吐率：34.33req/s] [内存消耗：1,499.42kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:39:35+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.035866s] [吞吐率：27.88req/s] [内存消耗：1,499.72kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:39:55+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.029521s] [吞吐率：33.87req/s] [内存消耗：1,499.75kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:40:07+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.035733s] [吞吐率：27.99req/s] [内存消耗：1,499.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:40:15+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.031323s] [吞吐率：31.93req/s] [内存消耗：1,499.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:40:35+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.053864s] [吞吐率：18.57req/s] [内存消耗：1,499.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:40:43+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.040996s] [吞吐率：24.39req/s] [内存消耗：1,499.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:41:16+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.039650s] [吞吐率：25.22req/s] [内存消耗：1,499.90kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:41:25+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.030314s] [吞吐率：32.99req/s] [内存消耗：1,499.86kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:41:41+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.036554s] [吞吐率：27.36req/s] [内存消耗：1,499.90kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:41:49+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.044509s] [吞吐率：22.47req/s] [内存消耗：1,499.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:42:12+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.040585s] [吞吐率：24.64req/s] [内存消耗：1,499.75kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:54:25+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.037432s] [吞吐率：26.71req/s] [内存消耗：1,501.41kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T18:54:44+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.339175s] [吞吐率：2.95req/s] [内存消耗：2,061.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '119',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '百度',
+  'brand_url' => 'http://www.baidu.com',
+  'brand_img' => '',
+  'brand_description' => 'sdasdasdasdasd',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018410s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.015988s ]
+[ sql ] [ SQL ] INSERT INTO `tp_brand` (`brand_name` , `brand_url` , `brand_img` , `brand_description` , `status`) VALUES ('百度' , 'http://www.baidu.com' , '' , 'sdasdasdasdasd' , 1) [ RunTime:0.054447s ]
+---------------------------------------------------------------
+[ 2020-04-16T18:54:47+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.034232s] [吞吐率：29.21req/s] [内存消耗：1,366.83kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:01:34+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.031395s] [吞吐率：31.85req/s] [内存消耗：1,367.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:01:50+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.102923s] [吞吐率：9.72req/s] [内存消耗：1,946.07kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '腾讯',
+  'brand_url' => 'http://www.qq.com',
+  'brand_img' => '',
+  'brand_description' => 'asdasdasd',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001696s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.029454s ]
+[ sql ] [ SQL ] INSERT INTO `tp_brand` (`brand_name` , `brand_url` , `brand_img` , `brand_description` , `status`) VALUES ('腾讯' , 'http://www.qq.com' , '' , 'asdasdasd' , 1) [ RunTime:0.021543s ]
+---------------------------------------------------------------
+[ 2020-04-16T19:01:53+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.025754s] [吞吐率：38.83req/s] [内存消耗：1,366.81kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:02:04+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.029404s] [吞吐率：34.01req/s] [内存消耗：1,366.91kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:16:21+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.040432s] [吞吐率：24.73req/s] [内存消耗：1,502.43kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:16:23+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.045805s] [吞吐率：21.83req/s] [内存消耗：1,329.15kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydFtmdbnstRuksrVI',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '490',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '',
+  'brand_url' => '',
+  'brand_description' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\validate\BrandV[D:\phpStudy\WWW\tpshop\thinkphp\library\think\Loader.php:526]
+---------------------------------------------------------------
+[ 2020-04-16T19:17:00+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.068501s] [吞吐率：14.60req/s] [内存消耗：1,347.80kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydFtmdbnstRuksrVI',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '490',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '',
+  'brand_url' => '',
+  'brand_description' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\validate\validate' not found[D:\phpStudy\WWW\tpshop\application\admin\validate\BrandV.php:5]
+---------------------------------------------------------------
+[ 2020-04-16T19:17:47+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.028084s] [吞吐率：35.61req/s] [内存消耗：1,325.91kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydFtmdbnstRuksrVI',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '490',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '',
+  'brand_url' => '',
+  'brand_description' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:17:50+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.029868s] [吞吐率：33.48req/s] [内存消耗：1,367.38kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:18:30+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.039954s] [吞吐率：25.03req/s] [内存消耗：1,367.74kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:18:31+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.030642s] [吞吐率：32.63req/s] [内存消耗：1,367.74kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:18:35+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.033766s] [吞吐率：29.62req/s] [内存消耗：1,325.91kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiR5uooaCmRz2Iek6',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '490',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '',
+  'brand_url' => '',
+  'brand_description' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:18:38+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.031803s] [吞吐率：31.44req/s] [内存消耗：1,367.38kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:21:43+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.039072s] [吞吐率：25.59req/s] [内存消耗：1,367.74kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:21:45+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.025174s] [吞吐率：39.72req/s] [内存消耗：1,325.91kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrKY3hiKC6pWKVB1F',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '490',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '',
+  'brand_url' => '',
+  'brand_description' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:21:46+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.026834s] [吞吐率：37.27req/s] [内存消耗：1,367.38kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__utma=111872281.919075583.1587025461.1587025461.1587025461.1; __utmz=111872281.1587025461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:21:54+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.023898s] [吞吐率：41.84req/s] [内存消耗：1,367.09kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:21:57+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.030397s] [吞吐率：32.90req/s] [内存消耗：1,325.18kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRXeGqNtUMjCNszzH',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '490',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '',
+  'brand_url' => '',
+  'brand_description' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:22:00+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.032284s] [吞吐率：30.98req/s] [内存消耗：1,366.72kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:22:34+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.030601s] [吞吐率：32.68req/s] [内存消耗：1,366.95kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:22:35+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.030542s] [吞吐率：32.74req/s] [内存消耗：1,325.18kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynDD2y5X43rpAqMy9',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '490',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '',
+  'brand_url' => '',
+  'brand_description' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:22:38+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.029330s] [吞吐率：34.10req/s] [内存消耗：1,366.72kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:23:03+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.029049s] [吞吐率：34.42req/s] [内存消耗：1,367.09kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:23:06+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.035354s] [吞吐率：28.29req/s] [内存消耗：1,366.95kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:23:07+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.030537s] [吞吐率：32.75req/s] [内存消耗：1,324.97kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDVJi7WGWLgm7eVcY',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '490',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '',
+  'brand_url' => '',
+  'brand_description' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:23:11+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.028744s] [吞吐率：34.79req/s] [内存消耗：1,366.72kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:31:50+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.054176s] [吞吐率：18.46req/s] [内存消耗：1,418.37kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot use object of type think\File as array[D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php:49]
+---------------------------------------------------------------
+[ 2020-04-16T19:32:31+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.029621s] [吞吐率：33.76req/s] [内存消耗：1,316.36kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:33:23+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.035586s] [吞吐率：28.10req/s] [内存消耗：1,418.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot use object of type think\File as array[D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php:49]
+---------------------------------------------------------------
+[ 2020-04-16T19:33:32+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.036904s] [吞吐率：27.10req/s] [内存消耗：1,418.63kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot use object of type think\File as array[D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php:49]
+---------------------------------------------------------------
+[ 2020-04-16T19:33:52+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.040970s] [吞吐率：24.41req/s] [内存消耗：1,418.66kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot use object of type think\File as array[D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php:49]
+---------------------------------------------------------------
+[ 2020-04-16T19:34:04+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.035551s] [吞吐率：28.13req/s] [内存消耗：1,418.80kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot access protected property think\File::$info[D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php:49]
+---------------------------------------------------------------
+[ 2020-04-16T19:34:22+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.032198s] [吞吐率：31.06req/s] [内存消耗：1,418.61kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot use object of type think\File as array[D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php:49]
+---------------------------------------------------------------
+[ 2020-04-16T19:39:37+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.048513s] [吞吐率：20.61req/s] [内存消耗：1,353.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: tmp_name[D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php:48]
+---------------------------------------------------------------
+[ 2020-04-16T19:42:55+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.051062s] [吞吐率：19.58req/s] [内存消耗：1,408.70kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant IMG_UPLOADS - assumed 'IMG_UPLOADS'[D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php:50]
+---------------------------------------------------------------
+[ 2020-04-16T19:43:27+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.036042s] [吞吐率：27.75req/s] [内存消耗：1,409.13kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant IMG_UPLOADS - assumed 'IMG_UPLOADS'[D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php:51]
+---------------------------------------------------------------
+[ 2020-04-16T19:44:07+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.056542s] [吞吐率：17.69req/s] [内存消耗：2,040.90kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004908s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.008273s ]
+[ error ] [0]数据表字段不存在:[col_img][D:\phpStudy\WWW\tpshop\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2020-04-16T19:44:40+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.073113s] [吞吐率：13.68req/s] [内存消耗：2,019.12kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWRcjQi1JHQp91v67',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106008',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '网易',
+  'brand_url' => 'http://www.163.com',
+  'brand_description' => 'sdsdfsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002935s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.010562s ]
+[ sql ] [ SQL ] INSERT INTO `tp_brand` (`brand_name` , `brand_url` , `brand_description` , `status` , `brand_img`) VALUES ('网易' , 'http://www.163.com' , 'sdsdfsdfsdfsdf' , 1 , '20200416\\2d231e4c07e83d482a51ebf999856a3f.jpg') [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2020-04-16T19:44:43+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.037653s] [吞吐率：26.56req/s] [内存消耗：1,503.24kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:46:15+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.030189s] [吞吐率：33.12req/s] [内存消耗：1,259.57kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywb51pDbQVCtUU2Bq',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '105999',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '搜狐',
+  'brand_url' => 'www.sohu.com',
+  'brand_description' => 'sdsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:48:23+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.028566s] [吞吐率：35.01req/s] [内存消耗：1,259.56kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywb51pDbQVCtUU2Bq',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '105999',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '搜狐',
+  'brand_url' => 'www.sohu.com',
+  'brand_description' => 'sdsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:48:34+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.034363s] [吞吐率：29.10req/s] [内存消耗：1,259.57kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywb51pDbQVCtUU2Bq',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '105999',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '搜狐',
+  'brand_url' => 'www.sohu.com',
+  'brand_description' => 'sdsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:48:48+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.032340s] [吞吐率：30.92req/s] [内存消耗：1,259.52kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywb51pDbQVCtUU2Bq',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '105999',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '搜狐',
+  'brand_url' => 'www.sohu.com',
+  'brand_description' => 'sdsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:48:56+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.041774s] [吞吐率：23.94req/s] [内存消耗：1,259.03kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywb51pDbQVCtUU2Bq',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '105999',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '搜狐',
+  'brand_url' => 'www.sohu.com',
+  'brand_description' => 'sdsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:49:04+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.034288s] [吞吐率：29.16req/s] [内存消耗：1,258.92kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywb51pDbQVCtUU2Bq',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '105999',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '搜狐',
+  'brand_url' => 'www.sohu.com',
+  'brand_description' => 'sdsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:49:13+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.028372s] [吞吐率：35.25req/s] [内存消耗：1,326.66kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywb51pDbQVCtUU2Bq',
+  'origin' => 'http://localhost',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '105999',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '搜狐',
+  'brand_url' => 'www.sohu.com',
+  'brand_description' => 'sdsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:49:16+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.029639s] [吞吐率：33.74req/s] [内存消耗：1,368.13kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:49:26+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.097000s] [吞吐率：10.31req/s] [内存消耗：2,018.66kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysZAnRJRCw2b0Luwi',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '106006',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '搜狐',
+  'brand_url' => 'http://www.sohu.com',
+  'brand_description' => 'sdsdfsdfsdf',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011952s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.028289s ]
+[ sql ] [ SQL ] INSERT INTO `tp_brand` (`brand_name` , `brand_url` , `brand_description` , `status` , `brand_img`) VALUES ('搜狐' , 'http://www.sohu.com' , 'sdsdfsdfsdf' , 1 , '20200416\\c45e0960ffd68f73ce83de180b5d3299.jpg') [ RunTime:0.000905s ]
+---------------------------------------------------------------
+[ 2020-04-16T19:49:29+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.036133s] [吞吐率：27.68req/s] [内存消耗：1,368.13kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:49:39+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.035313s] [吞吐率：28.32req/s] [内存消耗：1,368.43kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:49:51+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.044168s] [吞吐率：22.64req/s] [内存消耗：1,503.11kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:50:55+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.038533s] [吞吐率：25.95req/s] [内存消耗：1,503.11kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:53:35+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.032720s] [吞吐率：30.56req/s] [内存消耗：1,368.43kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:53:38+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.027936s] [吞吐率：35.80req/s] [内存消耗：1,504.96kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:53:45+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.037167s] [吞吐率：26.91req/s] [内存消耗：1,505.12kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:54:12+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.038494s] [吞吐率：25.98req/s] [内存消耗：1,505.10kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:54:21+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.037166s] [吞吐率：26.91req/s] [内存消耗：1,504.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T19:55:14+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.034482s] [吞吐率：29.00req/s] [内存消耗：1,505.09kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:00:45+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.070127s] [吞吐率：14.26req/s] [内存消耗：2,148.87kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002305s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.006554s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:01:10+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.060479s] [吞吐率：16.53req/s] [内存消耗：2,149.66kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001414s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.009557s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000755s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:01:10+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/20200416/2d231e4c07e83d482a51ebf999856a3f.jpg
+[运行时间：0.045741s] [吞吐率：21.86req/s] [内存消耗：1,327.21kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => '20200416',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/index.html',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:01:10+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/20200416/c45e0960ffd68f73ce83de180b5d3299.jpg
+[运行时间：0.043987s] [吞吐率：22.73req/s] [内存消耗：1,327.21kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => '20200416',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/index.html',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:01:41+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.062954s] [吞吐率：15.88req/s] [内存消耗：2,150.08kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003096s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.008754s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:01:41+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/20200416/2d231e4c07e83d482a51ebf999856a3f.jpg
+[运行时间：0.042096s] [吞吐率：23.76req/s] [内存消耗：1,327.62kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => '20200416',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/index.html',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:01:41+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/20200416/c45e0960ffd68f73ce83de180b5d3299.jpg
+[运行时间：0.046544s] [吞吐率：21.49req/s] [内存消耗：1,327.62kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => '20200416',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/index.html',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:02:18+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.050362s] [吞吐率：19.86req/s] [内存消耗：2,150.14kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002802s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.006774s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000485s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:02:36+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.052608s] [吞吐率：19.01req/s] [内存消耗：2,150.06kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001410s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.007915s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:02:50+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.054855s] [吞吐率：18.23req/s] [内存消耗：2,150.14kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001589s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.006658s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:04:30+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.053252s] [吞吐率：18.78req/s] [内存消耗：2,149.98kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002433s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.007635s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:04:31+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/public/static/uploads/20200416/2d231e4c07e83d482a51ebf999856a3f.jpg
+[运行时间：0.045021s] [吞吐率：22.21req/s] [内存消耗：1,328.38kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/index.html',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'uploads',
+  0 => '2d231e4c07e83d482a51ebf999856a3f.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:04:31+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/public/static/uploads/20200416/c45e0960ffd68f73ce83de180b5d3299.jpg
+[运行时间：0.045300s] [吞吐率：22.08req/s] [内存消耗：1,328.38kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/index.html',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'uploads',
+  0 => 'c45e0960ffd68f73ce83de180b5d3299.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:04:43+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/public/static/uploads/20200416/c45e0960ffd68f73ce83de180b5d3299.jpg
+[运行时间：0.054475s] [吞吐率：18.36req/s] [内存消耗：1,328.10kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'uploads',
+  0 => 'c45e0960ffd68f73ce83de180b5d3299.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:10:27+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.069317s] [吞吐率：14.43req/s] [内存消耗：2,150.14kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001820s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.010905s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000680s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:11:20+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.065013s] [吞吐率：15.38req/s] [内存消耗：2,150.80kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002506s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.010930s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:11:35+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.063216s] [吞吐率：15.82req/s] [内存消耗：2,150.90kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001380s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.007425s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.001008s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:11:55+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.037140s] [吞吐率：26.93req/s] [内存消耗：1,369.04kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:12:16+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.060532s] [吞吐率：16.52req/s] [内存消耗：2,019.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryohSuv8cjGc9v476Z',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '749277',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'brand_name' => '搜狗',
+  'brand_url' => 'http://www.sogou.com',
+  'brand_description' => '搜狗',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001379s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.011573s ]
+[ sql ] [ SQL ] INSERT INTO `tp_brand` (`brand_name` , `brand_url` , `brand_description` , `status` , `brand_img`) VALUES ('搜狗' , 'http://www.sogou.com' , '搜狗' , 1 , '20200416\\3ac348c76213f2c9950bed0b8db7dc41.jpg') [ RunTime:0.000948s ]
+---------------------------------------------------------------
+[ 2020-04-16T20:12:19+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/add.html
+[运行时间：0.028540s] [吞吐率：35.04req/s] [内存消耗：1,368.88kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->add[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T20:12:27+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand/index.html
+[运行时间：0.045143s] [吞吐率：22.15req/s] [内存消耗：2,012.21kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\tpshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\tpshop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tpshop\public/../application/admin\view\brand\index.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001471s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.007964s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000959s ]

@@ -1,0 +1,1741 @@
+---------------------------------------------------------------
+[ 2020-04-26T21:49:48+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/Brand/index
+[运行时间：0.254579s] [吞吐率：3.93req/s] [内存消耗：2,016.58kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\brand\list.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002560s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.014564s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.002507s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:53:05+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.058511s] [吞吐率：17.09req/s] [内存消耗：2,019.11kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/Brand/index',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000982s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.010973s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:53:10+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.060979s] [吞吐率：16.40req/s] [内存消耗：2,019.11kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/index.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011088s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006690s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:54:14+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/del.html?id=6
+[运行时间：0.075916s] [吞吐率：13.17req/s] [内存消耗：2,027.49kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/index.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->del[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000941s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.007146s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] DELETE FROM `tp_cate`    WHERE  `id` = 6 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:54:18+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.078354s] [吞吐率：12.76req/s] [内存消耗：2,016.28kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/del.html?id=6',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000832s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006428s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.002027s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:54:20+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/del.html?id=3
+[运行时间：0.069360s] [吞吐率：14.42req/s] [内存消耗：2,025.38kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/index.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->del[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.012042s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] DELETE FROM `tp_cate`    WHERE  `id` = 3 [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:54:23+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.070553s] [吞吐率：14.17req/s] [内存消耗：2,013.70kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/del.html?id=3',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003362s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.007092s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:55:01+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.061207s] [吞吐率：16.34req/s] [内存消耗：2,013.26kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/index.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\add.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001232s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006782s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:55:10+08:00 ] 0.0.0.0 POST localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.059354s] [吞吐率：16.85req/s] [内存消耗：1,959.92kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynQWbLD9VybbjEUqV',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '526',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'cate_name' => '系统',
+  'show_nav' => '1',
+  'keywords' => '',
+  'description' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000967s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.013325s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `level` FROM `tp_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] INSERT INTO `tp_cate` (`pid` , `cate_name` , `show_nav` , `keywords` , `description` , `level`) VALUES (0 , '系统' , 1 , '' , '' , 1) [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:55:13+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.083845s] [吞吐率：11.93req/s] [内存消耗：2,014.62kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\add.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010817s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.007281s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:56:31+08:00 ] 0.0.0.0 POST localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.075071s] [吞吐率：13.32req/s] [内存消耗：1,961.30kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvMl1rn0NlCoTQxhr',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '538',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'cate_name' => '网店帮助分类',
+  'show_nav' => '1',
+  'keywords' => '',
+  'description' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001441s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.007307s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT `level` FROM `tp_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] INSERT INTO `tp_cate` (`pid` , `cate_name` , `show_nav` , `keywords` , `description` , `level`) VALUES (0 , '网店帮助分类' , 1 , '' , '' , 1) [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:56:34+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.073196s] [吞吐率：13.66req/s] [内存消耗：2,016.02kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\add.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000949s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006749s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000534s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:56:43+08:00 ] 0.0.0.0 POST localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.061020s] [吞吐率：16.39req/s] [内存消耗：1,962.19kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygMDpoebcFOAKYPzz',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '532',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'cate_name' => '网店信息',
+  'show_nav' => '1',
+  'keywords' => '',
+  'description' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001137s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.008136s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT `level` FROM `tp_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] INSERT INTO `tp_cate` (`pid` , `cate_name` , `show_nav` , `keywords` , `description` , `level`) VALUES (0 , '网店信息' , 1 , '' , '' , 1) [ RunTime:0.003017s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:56:46+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.091561s] [吞吐率：10.92req/s] [内存消耗：2,017.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\add.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010166s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.009876s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:56:52+08:00 ] 0.0.0.0 POST localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.056673s] [吞吐率：17.65req/s] [内存消耗：1,963.17kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryz1R36ocAZhahJyMK',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '532',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'cate_name' => '新手上路',
+  'show_nav' => '1',
+  'keywords' => '',
+  'description' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001142s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.009601s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT `level` FROM `tp_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] INSERT INTO `tp_cate` (`pid` , `cate_name` , `show_nav` , `keywords` , `description` , `level`) VALUES (0 , '新手上路' , 1 , '' , '' , 1) [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:56:55+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.062042s] [吞吐率：16.12req/s] [内存消耗：2,018.81kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\add.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000893s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006668s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:57:04+08:00 ] 0.0.0.0 POST localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.057201s] [吞吐率：17.48req/s] [内存消耗：1,964.25kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarykSAON5CwajqN5l5V',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '535',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'cate_name' => '配送与支付',
+  'show_nav' => '1',
+  'keywords' => '',
+  'description' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000951s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.012486s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT `level` FROM `tp_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001757s ]
+[ sql ] [ SQL ] INSERT INTO `tp_cate` (`pid` , `cate_name` , `show_nav` , `keywords` , `description` , `level`) VALUES (0 , '配送与支付' , 1 , '' , '' , 1) [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:57:07+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/add.html
+[运行时间：0.071601s] [吞吐率：13.97req/s] [内存消耗：2,020.23kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\add.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000968s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.007504s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:00+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.056786s] [吞吐率：17.61req/s] [内存消耗：2,020.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/add.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006988s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000643s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:05+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/edit/id/10.html
+[运行时间：0.073324s] [吞吐率：13.64req/s] [内存消耗：2,023.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/index.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\edit.html [ array (
+  0 => 'cates',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000960s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.012728s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:10+08:00 ] 0.0.0.0 POST localhost/tpshop/public/index.php/admin/cate/edit.html
+[运行时间：0.060849s] [吞吐率：16.43req/s] [内存消耗：2,034.86kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/10.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCjBGn2sgTvkQGhb3',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '629',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '10',
+  'pid' => '9',
+  'cate_name' => '网店帮助分类',
+  'show_nav' => '1',
+  'keywords' => '',
+  'description' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001113s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.013533s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] UPDATE `tp_cate`  SET `pid`=9,`cate_name`='网店帮助分类',`show_nav`=1,`keywords`='',`description`=''  WHERE  `id` = 10 [ RunTime:0.000580s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:13+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/edit/id/10.html
+[运行时间：0.054095s] [吞吐率：18.49req/s] [内存消耗：2,023.14kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\edit.html [ array (
+  0 => 'cates',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000958s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.010609s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:16+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.055912s] [吞吐率：17.89req/s] [内存消耗：2,020.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/10.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000891s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.014440s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:24+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/edit/id/11.html
+[运行时间：0.070810s] [吞吐率：14.12req/s] [内存消耗：2,023.35kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/index.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '11',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\edit.html [ array (
+  0 => 'cates',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000762s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.013272s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:27+08:00 ] 0.0.0.0 POST localhost/tpshop/public/index.php/admin/cate/edit.html
+[运行时间：0.074006s] [吞吐率：13.51req/s] [内存消耗：2,034.80kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/11.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3xEeYdPuQNdWa8Cs',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '623',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '11',
+  'pid' => '9',
+  'cate_name' => '网店信息',
+  'show_nav' => '1',
+  'keywords' => '',
+  'description' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010475s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.007743s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.001653s ]
+[ sql ] [ SQL ] UPDATE `tp_cate`  SET `pid`=9,`cate_name`='网店信息',`show_nav`=1,`keywords`='',`description`=''  WHERE  `id` = 11 [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:30+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/edit/id/11.html
+[运行时间：0.067503s] [吞吐率：14.81req/s] [内存消耗：2,023.13kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '11',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\edit.html [ array (
+  0 => 'cates',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.010392s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:34+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.058220s] [吞吐率：17.18req/s] [内存消耗：2,020.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/11.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001157s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006853s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000547s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:41+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/edit/id/12.html
+[运行时间：0.068525s] [吞吐率：14.59req/s] [内存消耗：2,023.35kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/index.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\edit.html [ array (
+  0 => 'cates',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000938s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.012221s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:46+08:00 ] 0.0.0.0 POST localhost/tpshop/public/index.php/admin/cate/edit.html
+[运行时间：0.060694s] [吞吐率：16.48req/s] [内存消耗：2,034.83kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/12.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7TxrjsBc1IyiEdd1',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '624',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '12',
+  'pid' => '10',
+  'cate_name' => '新手上路',
+  'show_nav' => '1',
+  'keywords' => '',
+  'description' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000931s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.009707s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] UPDATE `tp_cate`  SET `pid`=10,`cate_name`='新手上路',`show_nav`=1,`keywords`='',`description`=''  WHERE  `id` = 12 [ RunTime:0.000633s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:49+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/edit/id/12.html
+[运行时间：0.055784s] [吞吐率：17.93req/s] [内存消耗：2,023.17kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\edit.html [ array (
+  0 => 'cates',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010261s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006461s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000591s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:58:53+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.060586s] [吞吐率：16.51req/s] [内存消耗：2,020.45kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/12.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000967s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.012984s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.002779s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:59:00+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/edit/id/13.html
+[运行时间：0.057195s] [吞吐率：17.48req/s] [内存消耗：2,023.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/index.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\edit.html [ array (
+  0 => 'cates',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001113s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.008645s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:59:05+08:00 ] 0.0.0.0 POST localhost/tpshop/public/index.php/admin/cate/edit.html
+[运行时间：0.062209s] [吞吐率：16.07req/s] [内存消耗：2,034.91kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/13.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLEkkdaWRAOvejJcc',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '627',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+  'pid' => '10',
+  'cate_name' => '配送与支付',
+  'show_nav' => '1',
+  'keywords' => '',
+  'description' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'cates',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001030s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.007813s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] UPDATE `tp_cate`  SET `pid`=10,`cate_name`='配送与支付',`show_nav`=1,`keywords`='',`description`=''  WHERE  `id` = 13 [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:59:08+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/edit/id/13.html
+[运行时间：0.082004s] [吞吐率：12.19req/s] [内存消耗：2,023.17kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit.html',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\edit.html [ array (
+  0 => 'cates',
+  1 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010451s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006801s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:59:11+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.049649s] [吞吐率：20.14req/s] [内存消耗：2,020.45kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/13.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002405s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006781s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2020-04-26T21:59:59+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.098814s] [吞吐率：10.12req/s] [内存消耗：2,166.51kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/13.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.012652s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000827s ]
+---------------------------------------------------------------
+[ 2020-04-26T22:01:39+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.055234s] [吞吐率：18.10req/s] [内存消耗：2,021.01kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/13.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000914s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.006405s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY `id` ASC [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2020-04-26T22:02:04+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.097894s] [吞吐率：10.22req/s] [内存消耗：2,166.88kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/13.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011271s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.013580s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY `id` ASC [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[ 2020-04-26T22:02:44+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.059628s] [吞吐率：16.77req/s] [内存消耗：2,166.91kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/13.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.011340s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY `id` ASC [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2020-04-26T22:10:18+08:00 ] 0.0.0.0 GET localhost/tpshop/public/index.php/admin/cate/index.html
+[运行时间：0.067724s] [吞吐率：14.77req/s] [内存消耗：2,167.76kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4314403840',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/cate/edit/id/13.html',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-dest' => 'document',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Cate->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html [ array (
+  0 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.011173s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY `id` ASC [ RunTime:0.000608s ]
