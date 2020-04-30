@@ -57,6 +57,7 @@
                             <div class="widget">
                                 <div class="widget-body">
                                     <div class="flip-scroll">
+                                        <form action="" method='post'>
                                         <table class="table table-bordered table-hover">
                                             <thead class="">
                                                 <tr>
@@ -90,13 +91,15 @@
                                                         {case 0}不显示{/case}
                                                         {/switch}
                                                     </td>
-                                                    <td class='text-center'>{$v.sort}</td>
+                                                    <td class='text-center' width='5%'>
+                                                        <input type="text" name="sort[{$v.id}]" value="{$v.sort}" style='width:80%' class='text-center'>
+                                                    </td>
                                                     <td class='text-center'>
                                                         <a class="btn btn-primary btn-sm shiny"
                                                             href="{:url('edit',array('id'=>$v.id))}">
                                                             <i class="fa fa-edit"></i> 编辑
                                                         </a>
-                                                        {notin name="$v['id']" value='9,10,11'}
+                                                        {notin name="$v['id']" value='1,3,4'}
                                                         <a class="btn btn-danger btn-sm shiny"
                                                             onclick="warning('确实要删除吗', 'del.html?id={$v.id}')" href="#">
                                                             <i class="fa fa-trash-o"></i> 删除
@@ -109,8 +112,17 @@
                                                     </td>
                                                 </tr>
                                                 {/foreach}
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class='text-center'><input type="submit" value='排序' class='btn btn-primary btn-sm shiny'></td>
+                                                    <td></td>
+                                                </tr>
                                             </tbody>
                                         </table>
+                                        </form>
                                     </div>
                                     <div>
                                     </div>

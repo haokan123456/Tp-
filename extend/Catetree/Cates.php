@@ -23,4 +23,21 @@ class Cates
 		}
 		return $arr;
 	}
+
+	/**
+	 * 获取子栏目id	 
+	 */
+	public function sonids($id)
+	{
+		$obj=db('cate');
+		$data=$obj->select();
+		static $arr=array();		
+		foreach($data as $k=>$v){
+			if($v['pid']==$id){
+				$arr[]=$v['id'];
+				$this->sonids($v['id']);
+			}
+		}
+		return $arr;
+	}
 }

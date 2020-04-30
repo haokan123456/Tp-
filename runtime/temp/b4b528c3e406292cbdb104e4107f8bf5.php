@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"D:\phpStudy\WWW\TpShop\public/../application/admin\view\brand\list.html";i:1587731339;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\head.html";i:1587084504;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\left.html";i:1587730726;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"D:\phpStudy\WWW\TpShop\public/../application/admin\view\brand\list.html";i:1588206545;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\head.html";i:1588206545;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\left.html";i:1588208790;}*/ ?>
 <!DOCTYPE html>
 <html><head>
 	    <meta charset="utf-8">
@@ -339,7 +339,7 @@
                 <i class="menu-icon fa fa-gear"></i>
 
                 <span class="menu-text">
-                    文章管理 </span>
+                    文章模块 </span>
 
                 <i class="menu-expand"></i>
             </a>

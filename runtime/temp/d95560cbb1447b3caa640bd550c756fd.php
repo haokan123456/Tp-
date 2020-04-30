@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"D:\phpStudy\WWW\TpShop\public/../application/admin\view\brand\edit.html";i:1587645743;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\head.html";i:1587084504;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\left.html";i:1587641499;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\foot.html";i:1587088294;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"D:\phpStudy\WWW\TpShop\public/../application/admin\view\brand\edit.html";i:1588206545;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\head.html";i:1588206545;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\left.html";i:1588206545;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\foot.html";i:1588206545;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -333,6 +333,32 @@
                     <a href="/admin/document/index.html">
                         <span class="menu-text">
                             短信签名 </span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="menu-dropdown">
+                <i class="menu-icon fa fa-gear"></i>
+
+                <span class="menu-text">
+                    文章管理 </span>
+
+                <i class="menu-expand"></i>
+            </a>
+            <ul class="submenu">
+                <li>
+                    <a href="<?php echo url('cate/index'); ?>">
+                        <span class="menu-text">
+                            文章分类 </span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/document/index.html">
+                        <span class="menu-text">
+                            文章管理 </span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>

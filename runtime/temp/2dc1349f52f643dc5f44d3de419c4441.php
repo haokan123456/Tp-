@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:70:"D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html";i:1587910214;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\head.html";i:1587084504;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\left.html";i:1587730726;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:70:"D:\phpStudy\WWW\TpShop\public/../application/admin\view\cate\list.html";i:1588212049;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\head.html";i:1588206545;s:62:"D:\phpStudy\WWW\TpShop\application\admin\view\common\left.html";i:1588216208;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -342,7 +342,7 @@
                 <i class="menu-icon fa fa-gear"></i>
 
                 <span class="menu-text">
-                    文章管理 </span>
+                    文章模块 </span>
 
                 <i class="menu-expand"></i>
             </a>
@@ -358,6 +358,13 @@
                     <a href="/admin/document/index.html">
                         <span class="menu-text">
                             文章管理 </span>
+                        <i class="menu-expand"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo url('Article/add'); ?>">
+                        <span class="menu-text">
+                            文章添加 </span>
                         <i class="menu-expand"></i>
                     </a>
                 </li>
@@ -393,6 +400,7 @@
                             <div class="widget">
                                 <div class="widget-body">
                                     <div class="flip-scroll">
+                                        <form action="" method='post'>
                                         <table class="table table-bordered table-hover">
                                             <thead class="">
                                                 <tr>
@@ -417,13 +425,15 @@
                                                     <td class='text-center'>
                                                         <?php switch($v['show_nav']): case "1": ?>显示<?php break; case "0": ?>不显示<?php break; endswitch; ?>
                                                     </td>
-                                                    <td class='text-center'><?php echo $v['sort']; ?></td>
+                                                    <td class='text-center' width='5%'>
+                                                        <input type="text" name="sort[<?php echo $v['id']; ?>]" value="<?php echo $v['sort']; ?>" style='width:80%' class='text-center'>
+                                                    </td>
                                                     <td class='text-center'>
                                                         <a class="btn btn-primary btn-sm shiny"
                                                             href="<?php echo url('edit',array('id'=>$v['id'])); ?>">
                                                             <i class="fa fa-edit"></i> 编辑
                                                         </a>
-                                                        <?php if(!in_array(($v['id']), explode(',',"9,10,11"))): ?>
+                                                        <?php if(!in_array(($v['id']), explode(',',"1,3,4"))): ?>
                                                         <a class="btn btn-danger btn-sm shiny"
                                                             onclick="warning('确实要删除吗', 'del.html?id=<?php echo $v['id']; ?>')" href="#">
                                                             <i class="fa fa-trash-o"></i> 删除
@@ -436,8 +446,17 @@
                                                     </td>
                                                 </tr>
                                                 <?php endforeach; ?>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class='text-center'><input type="submit" value='排序' class='btn btn-primary btn-sm shiny'></td>
+                                                    <td></td>
+                                                </tr>
                                             </tbody>
                                         </table>
+                                        </form>
                                     </div>
                                     <div>
                                     </div>
